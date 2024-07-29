@@ -1,0 +1,39 @@
+:root {
+  --blue: #419ec7;
+  --bg: #0a0a0a;
+  --shadow: 0 2px 2px rgb(0, 0, 0 / 0.5);
+}
+
+body {
+  font-size: 1.2rem;
+  font-family: "Josefin Sans", sans-serif;
+  min-height: 2000px;
+}
+
+.hero {
+  min-height: 100vh;
+  background-color: var(--bg);
+}
+
+.hero h1 {
+  font-family: "Pinyon Script", cursive;
+  font-size: 4rem;
+}
+
+.hero h4 {
+  font-size: 1.7rem;
+}
+
+.hero p {
+  font-size: 1.5rem;
+}
+
+.hero a {
+  color: var(--blue);
+  background-color: white;
+}
+
+.hero a:hover {
+  background-color: var(--blue);
+  color: white;
+}
